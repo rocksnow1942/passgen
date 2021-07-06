@@ -14,7 +14,7 @@ program
 
 
 
-const {length,save,numbers,symbols} = program.opts()
+const {length,numbers,symbols} = program.opts()
 
 
 
