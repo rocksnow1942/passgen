@@ -7,9 +7,9 @@ const {createPwd,savePwd} = require('./utils/createpwd')
 program.version('1.0.0').description('Pass generator')
 
 program
-.option('-l, --length <number>','length of password','12')
+.option('-l, --length <number>','length of password',12)
 .option('-nn, --no-numbers','no numbers',)
-.option('-ns, --no-symbols', 'remove symbols')
+.option('-ns, --no-symbols', 'no symbols')
 .parse()
 
 
