@@ -3,7 +3,7 @@ const path = require('path')
 const os = require('os')
 const chalk = require('chalk')
 
-const createPwd = (length=8,hasNb=true,hasSb=true) => {
+const createPwd = (length=8,hasNb,hasSb) => {
     let char = 'abcdefghijklmnopqrstuvwxyz'
     char += char.toUpperCase()
     hasNb? char += '1234567890':null;

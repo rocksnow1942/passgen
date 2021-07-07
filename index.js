@@ -9,13 +9,13 @@ program.version('1.0.0').description('Pass generator')
 program
 .option('-l, --length <number>','length of password',12)
 .option('-nn, --no-numbers','no numbers',)
-.option('-ns, --no-symbols', 'no symbols')
+.option('-s, --symbols', 'include symbols', )
 .parse()
 
 
 
 const {length,numbers,symbols} = program.opts()
-
+console.log(symbols);
 
 
 const generatedPwd = createPwd(length,numbers,symbols)
