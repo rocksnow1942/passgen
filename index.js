@@ -15,8 +15,6 @@ program
 
 
 const {length,numbers,symbols} = program.opts()
-console.log(symbols);
-
 
 const generatedPwd = createPwd(length,numbers,symbols)
 
